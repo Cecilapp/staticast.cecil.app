@@ -5,6 +5,7 @@ baseurl: https://staticast.cecil.app/
 image: /staticast-preview.png
 theme:
   - applanding
+  - netlify
 applanding:
   buttons:
     - name: Netlify
