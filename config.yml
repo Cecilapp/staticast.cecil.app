@@ -1,6 +1,6 @@
-title: Staticast
-baseline: Publish your podcast in 1 minute! 🎙️
-description: Staticast is a ready to use podcast website, powered by Cecil, your content driven static site generator.
+title: 🎙️ Staticast
+baseline: The easiest way to publish your podcast
+description: Staticast is a ready to use Progressive Web App to publish your podcast, with a RSS feed ready for syndication platforms, and a user friendly CMS.
 baseurl: https://staticast.cecil.app/
 image: /staticast-preview.png
 theme:
