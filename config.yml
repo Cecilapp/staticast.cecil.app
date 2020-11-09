@@ -1,0 +1,15 @@
+title: Staticast
+baseline: Publish your podcast in 1 minute! 🎙️
+description: Staticast is a ready to use podcast website, powered by Cecil, your content driven static site generator.
+baseurl: https://staticast.cecil.app/
+image: /staticast-preview.png
+theme:
+  - applanding
+applanding:
+  buttons:
+    - name: Netlify
+      url: https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/staticast&stack=cms
+      image: https://www.netlify.com/img/deploy/button.svg
+  source: https://github.com/Cecilapp/staticast#readme
+  screenshot: /staticast-preview.png
+  demo: https://staticast-demo.cecil.app
