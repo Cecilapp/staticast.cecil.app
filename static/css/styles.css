@@ -589,6 +589,10 @@ a:hover {
   background-size: cover;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -737,10 +741,10 @@ a:hover {
   text-align: center;
 }
 
-.text-gray-500 {
+.text-gray-600 {
   --text-opacity: 1;
-  color: #a0aec0;
-  color: rgba(160, 174, 192, var(--text-opacity));
+  color: #718096;
+  color: rgba(113, 128, 150, var(--text-opacity));
 }
 
 .text-gray-900 {
@@ -749,10 +753,10 @@ a:hover {
   color: rgba(26, 32, 44, var(--text-opacity));
 }
 
-.hover\:text-teal-600:hover {
+.hover\:text-gray-600:hover {
   --text-opacity: 1;
-  color: #319795;
-  color: rgba(49, 151, 149, var(--text-opacity));
+  color: #718096;
+  color: rgba(113, 128, 150, var(--text-opacity));
 }
 
 .no-underline {
