@@ -741,10 +741,10 @@ a:hover {
   text-align: center;
 }
 
-.text-gray-600 {
+.text-gray-700 {
   --text-opacity: 1;
-  color: #718096;
-  color: rgba(113, 128, 150, var(--text-opacity));
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
 }
 
 .text-gray-900 {
@@ -753,10 +753,10 @@ a:hover {
   color: rgba(26, 32, 44, var(--text-opacity));
 }
 
-.hover\:text-gray-600:hover {
+.hover\:text-gray-700:hover {
   --text-opacity: 1;
-  color: #718096;
-  color: rgba(113, 128, 150, var(--text-opacity));
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
 }
 
 .no-underline {
