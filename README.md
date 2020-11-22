@@ -6,8 +6,8 @@ Staticast website.
 
 ```bash
 composer install
-npm install tailwindcss
+npm install tailwindcss@1.9.6
 npx tailwindcss build ./themes/applanding/static/styles.css -o ./static/css/styles.css
 curl -LO https://cecil.app/cecil.phar
-php cecil.phar serve -vv
+php cecil.phar serve -v
 ```
