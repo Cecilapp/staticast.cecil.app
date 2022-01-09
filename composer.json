@@ -2,5 +2,10 @@
   "require": {
     "cecil/theme-applanding": "^1.2",
     "cecil/theme-netlify": "^1.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "cecil/theme-installer": true
+    }
   }
 }
