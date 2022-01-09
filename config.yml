@@ -2,7 +2,7 @@ title: 🎙️ Staticast
 baseline: The easiest way to publish your podcast
 description: Staticast is a ready to use Progressive Web App to publish your podcast, with a RSS feed ready for syndication platforms, and a user friendly CMS.
 baseurl: https://staticast.cecil.app/
-image: /staticast-preview.png
+image: staticast-full-preview.png
 theme:
   - applanding
   - netlify
