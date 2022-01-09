@@ -12,7 +12,7 @@ applanding:
       url: https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/staticast&stack=cms
       image: https://www.netlify.com/img/deploy/button.svg
   source: https://github.com/Cecilapp/staticast#readme
-  screenshot: /staticast-preview.png
+  screenshot: staticast-full-preview.png
   demo: https://staticast-demo.cecil.app
 netlify:
   redirects:
