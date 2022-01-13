@@ -2,7 +2,7 @@ title: 🎙️ Staticast
 baseline: The easiest way to publish your podcast
 description: Staticast is a ready to use Progressive Web App to publish your podcast, with a RSS feed ready for syndication platforms, and a user friendly CMS.
 baseurl: https://staticast.cecil.app/
-image: staticast-full-preview.png
+image: staticast-preview.png
 theme:
   - applanding
   - netlify
@@ -12,7 +12,10 @@ applanding:
       url: https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/staticast&stack=cms
       image: https://www.netlify.com/img/deploy/button.svg
   source: https://github.com/Cecilapp/staticast#readme
-  screenshot: staticast-full-preview.png
+  screenshot: staticast-preview.png
+  screenshotdark: staticast-preview-dark.png
+  screenshotapp: staticast-app-preview.png
+  screenshotappdark: staticast-app-preview-dark.png
   demo: https://staticast-demo.cecil.app
 netlify:
   redirects:
