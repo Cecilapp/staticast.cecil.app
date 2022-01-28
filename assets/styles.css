@@ -974,4 +974,9 @@ a:hover {
   .xl\:w-3\/5 {
     width: 60%;
   }
+
+  .xl\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
