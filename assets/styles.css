@@ -537,10 +537,6 @@ a:hover {
   display: none;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
 .h-screen {
   height: 100vh;
 }
@@ -910,6 +906,10 @@ a:hover {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-12 {
+    height: 3rem;
   }
 
   .md\:h-auto {
