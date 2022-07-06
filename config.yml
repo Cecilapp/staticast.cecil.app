@@ -11,7 +11,8 @@ applanding:
     - name: Netlify
       url: https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/staticast&stack=cms
       image: https://www.netlify.com/img/deploy/button.svg
-  source: https://github.com/Cecilapp/staticast#readme
+  source: https://github.com/Cecilapp/staticast
+  documentation: https://github.com/Cecilapp/staticast#readme
   screenshot:
     desktop:
       light: staticast-preview.png
