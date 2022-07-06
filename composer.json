@@ -1,6 +1,6 @@
 {
   "require": {
-    "cecil/theme-applanding": "^1.3",
+    "cecil/theme-applanding": "^1.4",
     "cecil/theme-netlify": "^1.2"
   },
   "config": {
