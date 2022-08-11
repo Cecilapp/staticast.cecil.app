@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93b254518aa66f434bb2bb19e66338bd",
+    "content-hash": "ced1f5b286e2fa175bee7d7944596bf7",
     "packages": [
         {
             "name": "cecil/theme-applanding",
-            "version": "1.4.0",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-applanding.git",
-                "reference": "35d33ca3da98ac4e0a9933585f89e761fa2abb02"
+                "reference": "88e78994ac44a4588a7da0b00a7bae8ef69f4816"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-applanding/zipball/35d33ca3da98ac4e0a9933585f89e761fa2abb02",
-                "reference": "35d33ca3da98ac4e0a9933585f89e761fa2abb02",
+                "url": "https://api.github.com/repos/Cecilapp/theme-applanding/zipball/88e78994ac44a4588a7da0b00a7bae8ef69f4816",
+                "reference": "88e78994ac44a4588a7da0b00a7bae8ef69f4816",
                 "shasum": ""
             },
             "require": {
@@ -42,7 +42,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-applanding/issues",
-                "source": "https://github.com/Cecilapp/theme-applanding/tree/1.4.0"
+                "source": "https://github.com/Cecilapp/theme-applanding/tree/1.4.2"
             },
             "funding": [
                 {
@@ -58,7 +58,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-07-06T21:17:11+00:00"
+            "time": "2022-07-12T23:18:52+00:00"
         },
         {
             "name": "cecil/theme-installer",
