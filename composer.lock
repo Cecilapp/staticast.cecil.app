@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ced1f5b286e2fa175bee7d7944596bf7",
+    "content-hash": "505be6cb46f96bb4f788cf5658b0e23c",
     "packages": [
         {
             "name": "cecil/theme-applanding",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-applanding.git",
-                "reference": "88e78994ac44a4588a7da0b00a7bae8ef69f4816"
+                "reference": "b6786edd4bb054c93bf7e684f01d8c14e911c8bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-applanding/zipball/88e78994ac44a4588a7da0b00a7bae8ef69f4816",
-                "reference": "88e78994ac44a4588a7da0b00a7bae8ef69f4816",
+                "url": "https://api.github.com/repos/Cecilapp/theme-applanding/zipball/b6786edd4bb054c93bf7e684f01d8c14e911c8bd",
+                "reference": "b6786edd4bb054c93bf7e684f01d8c14e911c8bd",
                 "shasum": ""
             },
             "require": {
@@ -42,7 +42,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-applanding/issues",
-                "source": "https://github.com/Cecilapp/theme-applanding/tree/1.4.2"
+                "source": "https://github.com/Cecilapp/theme-applanding/tree/1.5.0"
             },
             "funding": [
                 {
@@ -58,7 +58,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-07-12T23:18:52+00:00"
+            "time": "2022-09-24T00:45:49+00:00"
         },
         {
             "name": "cecil/theme-installer",
@@ -132,16 +132,16 @@
         },
         {
             "name": "cecil/theme-netlify",
-            "version": "1.2.3",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-netlify.git",
-                "reference": "b79f9963b5553dd02ae3061fa1b5c145ccf5f7b3"
+                "reference": "b170332716fa9b5611b679e721eea8ce774e14f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/b79f9963b5553dd02ae3061fa1b5c145ccf5f7b3",
-                "reference": "b79f9963b5553dd02ae3061fa1b5c145ccf5f7b3",
+                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/b170332716fa9b5611b679e721eea8ce774e14f2",
+                "reference": "b170332716fa9b5611b679e721eea8ce774e14f2",
                 "shasum": ""
             },
             "require": {
@@ -166,7 +166,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-netlify/issues",
-                "source": "https://github.com/Cecilapp/theme-netlify/tree/1.2.3"
+                "source": "https://github.com/Cecilapp/theme-netlify/tree/1.3.0"
             },
             "funding": [
                 {
@@ -182,7 +182,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-03-28T22:52:59+00:00"
+            "time": "2022-09-01T15:29:31+00:00"
         }
     ],
     "packages-dev": [],
