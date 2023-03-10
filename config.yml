@@ -11,6 +11,9 @@ applanding:
     - name: Netlify
       url: https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/staticast&stack=cms
       image: https://www.netlify.com/img/deploy/button.svg
+    - name: Vercel
+      url: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCecilapp%2Fstaticast&project-name=podcast&repository-name=podcast&demo-title=Staticast&demo-description=The%20easiest%20way%20to%20publish%20your%20podcast.&demo-url=https%3A%2F%2Fstaticast-demo.cecil.app&demo-image=https%3A%2F%2Fgithub.com%2FCecilapp%2Fstaticast.cecil.app%2Fraw%2Fmain%2Fassets%2Fstaticast-preview.png
+      image: https://vercel.com/button/default.svg
   source: https://github.com/Cecilapp/staticast
   documentation: https://github.com/Cecilapp/staticast#readme
   screenshot:
