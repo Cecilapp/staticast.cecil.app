@@ -1,6 +1,6 @@
 /* Tailwind CSS */
 
-/* ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -30,6 +30,8 @@
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
 */
 
 html {
@@ -44,6 +46,10 @@ html {
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
 }
 
 /*
@@ -410,6 +416,12 @@ video {
   height: auto;
 }
 
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden] {
+  display: none;
+}
+
 h1 {
   margin-bottom: 1rem;
   font-size: 1.875rem;
@@ -433,58 +445,10 @@ p {
 }
 
 a:hover {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 *, ::before, ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-}
-
-::-webkit-backdrop {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -645,24 +609,24 @@ a:hover {
   display: none;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
 .h-10 {
   height: 2.5rem;
+}
+
+.h-5 {
+  height: 1.25rem;
 }
 
 .h-6 {
   height: 1.5rem;
 }
 
-.w-full {
-  width: 100%;
+.h-screen {
+  height: 100vh;
+}
+
+.w-1\/4 {
+  width: 25%;
 }
 
 .w-5 {
@@ -673,8 +637,8 @@ a:hover {
   width: 83.333333%;
 }
 
-.w-1\/4 {
-  width: 25%;
+.w-full {
+  width: 100%;
 }
 
 .flex-col {
@@ -713,17 +677,12 @@ a:hover {
   fill: currentColor;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-6 {
@@ -731,20 +690,25 @@ a:hover {
   padding-right: 1.5rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-14 {
   padding-bottom: 3.5rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-center {
@@ -755,14 +719,14 @@ a:hover {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-sm {
@@ -770,29 +734,24 @@ a:hover {
   line-height: 1.25rem;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
-.leading-tight {
-  line-height: 1.25;
+.font-medium {
+  font-weight: 500;
 }
 
 .leading-normal {
   line-height: 1.5;
 }
 
-.tracking-normal {
-  letter-spacing: 0em;
+.leading-tight {
+  line-height: 1.25;
 }
 
-.text-slate-900 {
-  --tw-text-opacity: 1;
-  color: rgb(15 23 42 / var(--tw-text-opacity));
+.tracking-normal {
+  letter-spacing: 0em;
 }
 
 .text-slate-700 {
@@ -800,9 +759,13 @@ a:hover {
   color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 
+.text-slate-900 {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
 .no-underline {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 /* Base styles */
@@ -813,40 +776,23 @@ a:hover {
   * ---------------------------------------------- */
 
 .slide-in-bottom {
-  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25,.46,0.45,.94) both;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25,.46,0.45,.94) both
 }
 
 .slide-in-bottom-h1 {
-  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25,.46,0.45,.94) 0.5s both;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25,.46,0.45,.94) 0.5s both
 }
 
 .slide-in-bottom-subtitle {
-  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25,.46,0.45,.94) 0.75s both;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25,.46,0.45,.94) 0.75s both
 }
 
 .fade-in {
-  -webkit-animation: fade-in 1.2s cubic-bezier(0.39,.575,0.565,1.000) 1s both;
   animation: fade-in 1.2s cubic-bezier(0.39,.575,0.565,1.000) 1s both
 }
 
 .bounce-top-icons {
-  -webkit-animation: bounce-top 0.9s 1s both;
   animation: bounce-top 0.9s 1s both
-}
-
-@-webkit-keyframes slide-in-bottom {
-  0% {
-    transform: translateY(1000px);
-    opacity: 0
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1
-  }
 }
 
 @keyframes slide-in-bottom {
@@ -861,63 +807,9 @@ a:hover {
   }
 }
 
-@-webkit-keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    opacity: 1
-  }
-
-  24% {
-    opacity: 1
-  }
-
-  40% {
-    transform: translateY(-24px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in
-  }
-
-  65% {
-    transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in
-  }
-
-  82% {
-    transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in
-  }
-
-  93% {
-    transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in
-  }
-
-  25%,
-  55%,
-  75%,
-  87% {
-    transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out
-  }
-
-  100% {
-    transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    opacity: 1
-  }
-}
-
 @keyframes bounce-top {
   0% {
     transform: translateY(-45px);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
     opacity: 1
   }
@@ -928,25 +820,21 @@ a:hover {
 
   40% {
     transform: translateY(-24px);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in
   }
 
   65% {
     transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in
   }
 
   82% {
     transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in
   }
 
   93% {
     transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in
   }
 
@@ -955,24 +843,12 @@ a:hover {
   75%,
   87% {
     transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out
   }
 
   100% {
     transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
-    opacity: 1
-  }
-}
-
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0
-  }
-
-  100% {
     opacity: 1
   }
 }
@@ -993,8 +869,7 @@ a:hover {
 }
 
 .hover\:no-underline:hover {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 @media (prefers-color-scheme: dark) {
