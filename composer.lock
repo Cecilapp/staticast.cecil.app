@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7c867a604497d1764504c29f8046b96",
+    "content-hash": "2fab5ea66390702e64f59717f1062ab1",
     "packages": [
         {
             "name": "cecil/theme-applanding",
-            "version": "1.7.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-applanding.git",
-                "reference": "6fd54c19dc683bdcd7ede414cfece4985596ee7f"
+                "reference": "a6d23904dc0fe1da0c3ac6776904e2fbec2eb9eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-applanding/zipball/6fd54c19dc683bdcd7ede414cfece4985596ee7f",
-                "reference": "6fd54c19dc683bdcd7ede414cfece4985596ee7f",
+                "url": "https://api.github.com/repos/Cecilapp/theme-applanding/zipball/a6d23904dc0fe1da0c3ac6776904e2fbec2eb9eb",
+                "reference": "a6d23904dc0fe1da0c3ac6776904e2fbec2eb9eb",
                 "shasum": ""
             },
             "require": {
@@ -42,13 +42,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-applanding/issues",
-                "source": "https://github.com/Cecilapp/theme-applanding/tree/1.7.0"
+                "source": "https://github.com/Cecilapp/theme-applanding/tree/1.8.1"
             },
             "funding": [
-                {
-                    "url": "https://www.paypal.me/narno",
-                    "type": "custom"
-                },
                 {
                     "url": "https://github.com/ArnaudLigny",
                     "type": "github"
@@ -58,7 +54,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-04-10T22:44:22+00:00"
+            "time": "2023-12-12T10:53:09+00:00"
         },
         {
             "name": "cecil/theme-installer",
@@ -132,16 +128,16 @@
         },
         {
             "name": "cecil/theme-netlify",
-            "version": "1.4.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-netlify.git",
-                "reference": "e5fa01c7aac664d596709185fdb31b0a20031f13"
+                "reference": "22f2799058513cfe427f5b47b568d515e60f2932"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/e5fa01c7aac664d596709185fdb31b0a20031f13",
-                "reference": "e5fa01c7aac664d596709185fdb31b0a20031f13",
+                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/22f2799058513cfe427f5b47b568d515e60f2932",
+                "reference": "22f2799058513cfe427f5b47b568d515e60f2932",
                 "shasum": ""
             },
             "require": {
@@ -151,7 +147,7 @@
             "extra": {
                 "name": "netlify",
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -166,13 +162,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-netlify/issues",
-                "source": "https://github.com/Cecilapp/theme-netlify/tree/1.4.0"
+                "source": "https://github.com/Cecilapp/theme-netlify/tree/2.0.0"
             },
             "funding": [
-                {
-                    "url": "https://www.paypal.me/narno",
-                    "type": "custom"
-                },
                 {
                     "url": "https://github.com/ArnaudLigny",
                     "type": "github"
@@ -182,7 +174,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-02-22T00:32:07+00:00"
+            "time": "2023-12-09T01:10:41+00:00"
         }
     ],
     "packages-dev": [],
@@ -193,5 +185,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
