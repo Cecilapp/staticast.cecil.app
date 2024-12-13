@@ -1,7 +1,7 @@
 {
   "require": {
-    "cecil/theme-applanding": "^1.8",
-    "cecil/theme-netlify": "^2.0"
+    "cecil/theme-applanding": "^1.9",
+    "cecil/theme-netlify": "^2.1"
   },
   "config": {
     "allow-plugins": {
