@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fab5ea66390702e64f59717f1062ab1",
+    "content-hash": "e26e0cffdffe3dd0a3e4f30b4b101a05",
     "packages": [
         {
             "name": "cecil/theme-applanding",
@@ -124,16 +124,16 @@
         },
         {
             "name": "cecil/theme-netlify",
-            "version": "2.1.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-netlify.git",
-                "reference": "c74e2c8f4dd07f4d132d14a95a95eedf35ff67fa"
+                "reference": "291491312e26724b76eac0d3f8f3e1a53f15fc3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/c74e2c8f4dd07f4d132d14a95a95eedf35ff67fa",
-                "reference": "c74e2c8f4dd07f4d132d14a95a95eedf35ff67fa",
+                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/291491312e26724b76eac0d3f8f3e1a53f15fc3e",
+                "reference": "291491312e26724b76eac0d3f8f3e1a53f15fc3e",
                 "shasum": ""
             },
             "require": {
@@ -158,7 +158,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-netlify/issues",
-                "source": "https://github.com/Cecilapp/theme-netlify/tree/2.1.0"
+                "source": "https://github.com/Cecilapp/theme-netlify/tree/2.2.1"
             },
             "funding": [
                 {
@@ -170,7 +170,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-11-26T01:37:24+00:00"
+            "time": "2025-06-11T22:50:06+00:00"
         }
     ],
     "packages-dev": [],
@@ -181,5 +181,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
