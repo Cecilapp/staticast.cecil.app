@@ -4,33 +4,36 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2c1ff52190e85a6d1c8d7895295f26e",
+    "content-hash": "8874b9ac74f2f72f86c1ce9489702c31",
     "packages": [
         {
             "name": "cecil/theme-applanding",
-            "version": "2.4.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-applanding.git",
-                "reference": "a55b45ada305bda88be44970085e39797e7b2838"
+                "reference": "e95c730d7f3b05ed55b4d345652a126de288de86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-applanding/zipball/a55b45ada305bda88be44970085e39797e7b2838",
-                "reference": "a55b45ada305bda88be44970085e39797e7b2838",
+                "url": "https://api.github.com/repos/Cecilapp/theme-applanding/zipball/e95c730d7f3b05ed55b4d345652a126de288de86",
+                "reference": "e95c730d7f3b05ed55b4d345652a126de288de86",
                 "shasum": ""
             },
             "require": {
-                "cecil/theme-installer": "^1.4|^2.0"
+                "cecil/theme-installer": "^2.1",
+                "cecil/theme-ogimage": "^1.3"
             },
             "require-dev": {
-                "aligny/tailwind-builder": "^1.2"
+                "aligny/tailwind-builder": "^1.2.3"
             },
             "type": "cecil-theme",
             "extra": {
-                "name": "applanding",
+                "cecil": {
+                    "theme-name": "applanding"
+                },
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-main": "3.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -41,11 +44,12 @@
             "keywords": [
                 "cecil",
                 "landing",
+                "tailwind css",
                 "theme"
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-applanding/issues",
-                "source": "https://github.com/Cecilapp/theme-applanding/tree/2.4.0"
+                "source": "https://github.com/Cecilapp/theme-applanding/tree/3.0.0"
             },
             "funding": [
                 {
@@ -57,27 +61,30 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-10-05T01:52:51+00:00"
+            "time": "2026-11-20T16:28:53+00:00",
+            "published-time": "2026-11-20T16:29:56+00:00"
         },
         {
             "name": "cecil/theme-installer",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-installer.git",
-                "reference": "588ec8523a978229d23e10a0b8e0b6420192c154"
+                "reference": "37c6f58e09cf36e94b10b078a9c5e1f3985d5a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-installer/zipball/588ec8523a978229d23e10a0b8e0b6420192c154",
-                "reference": "588ec8523a978229d23e10a0b8e0b6420192c154",
+                "url": "https://api.github.com/repos/Cecilapp/theme-installer/zipball/37c6f58e09cf36e94b10b078a9c5e1f3985d5a38",
+                "reference": "37c6f58e09cf36e94b10b078a9c5e1f3985d5a38",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": ">=2.0"
+                "composer-plugin-api": "^2.0",
+                "php": "^8.1"
             },
             "require-dev": {
-                "composer/composer": ">=2.0"
+                "composer/composer": "^2.0",
+                "phpunit/phpunit": "^10.5"
             },
             "type": "composer-plugin",
             "extra": {
@@ -87,8 +94,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Cecil\\Installer\\Composer": "src/"
+                "psr-4": {
+                    "Cecil\\Installer\\Composer\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -103,15 +110,17 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Installer for Cecil's themes",
+            "description": "Composer installer for Cecil's themes",
+            "homepage": "https://cecil.app",
             "keywords": [
                 "cecil",
+                "composer-plugin",
                 "installer",
                 "themes"
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-installer/issues",
-                "source": "https://github.com/Cecilapp/theme-installer/tree/2.0.0"
+                "source": "https://github.com/Cecilapp/theme-installer/tree/2.1.0"
             },
             "funding": [
                 {
@@ -123,7 +132,8 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-01-09T14:53:24+00:00"
+            "time": "2026-10-22T20:56:35+00:00",
+            "published-time": "2026-10-22T20:57:20+00:00"
         },
         {
             "name": "cecil/theme-netlify",
@@ -174,6 +184,61 @@
                 }
             ],
             "time": "2025-06-11T22:50:06+00:00"
+        },
+        {
+            "name": "cecil/theme-ogimage",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cecilapp/theme-ogimage.git",
+                "reference": "3d2b5482f84e8f9f19e3b4b370208a0c47623e91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cecilapp/theme-ogimage/zipball/3d2b5482f84e8f9f19e3b4b370208a0c47623e91",
+                "reference": "3d2b5482f84e8f9f19e3b4b370208a0c47623e91",
+                "shasum": ""
+            },
+            "require": {
+                "cecil/theme-installer": "^2.1"
+            },
+            "type": "cecil-theme",
+            "extra": {
+                "cecil": {
+                    "theme-name": "ogimage"
+                },
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Cecil component theme Open Graph image: generates the Open Graph images of pages",
+            "keywords": [
+                "cecil",
+                "image",
+                "open graph",
+                "plugin",
+                "theme"
+            ],
+            "support": {
+                "issues": "https://github.com/Cecilapp/theme-ogimage/issues",
+                "source": "https://github.com/Cecilapp/theme-ogimage/tree/1.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ArnaudLigny",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/cecil",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2026-11-16T10:32:09+00:00",
+            "published-time": "2026-11-16T10:33:40+00:00"
         }
     ],
     "packages-dev": [],
@@ -184,5 +249,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }
