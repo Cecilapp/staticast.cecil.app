@@ -1,9 +1,0 @@
-{
-  "name": "staticast",
-  "devDependencies": {
-    "tailwindcss": "^3.4"
-  },
-  "scripts": {
-    "build": "curl -sSOL https://cecil.app/build.sh && bash ./build.sh"
-  }
-}
