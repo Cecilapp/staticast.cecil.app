@@ -19,6 +19,7 @@ applanding:
   screenshot: staticast-preview.png
   screenshot_alt: Home page of a podcast published with Staticast
   demo: https://staticast-demo.cecil.app
+  accent: "#7E4EA3"
 netlify:
   redirects:
     - from: https://staticast.netlify.app/*
